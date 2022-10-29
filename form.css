@@ -1,0 +1,125 @@
+/*body.logoa{
+    background: linear-gradient(to right,snow,grey ); 
+    color:black; 
+    font-family: 'Quicksand', sans-serif; 
+    } */
+    
+nav{ background:cornsilk;
+     color:red;
+     font-family:'proportional',monospace;
+     font-size:13.1px;}
+   
+button{ 
+    background:limegreen;
+    }
+.logo{background: radial-gradient(dodgerblue,blue); 
+   color:white; 
+  
+   font-family: 'Quicksand', sans-serif; }   
+img{margin-left:165px;
+    margin-top:20px;
+    height:50px;}
+    
+h1{
+font-size:20px;
+margin-left:55px;
+margin-right:50px;
+}
+
+h1 {
+display: flex;
+background: linear-gradient(-45deg,blue,dodgerblue ,royalblue,mediumseagreen ,limegreen ,seagreen);
+background-size: 300% 300%;
+background-position:0% 10%;
+box-shadow:0px 0px 20px black;
+cursor: pointer;}
+h1{animation:gradient 10s ease infinite;}
+@keyframes gradient 
+{
+0%{background-position:0% 10%;}
+50% {background-position: 100% 50%;}
+100%{background-position: 0% 50%;}
+}
+
+
+
+
+body {
+  background: -webkit-linear-gradient(bottom, #2dbd6e, #a6f77b);
+  background-repeat: no-repeat;
+}
+label {
+  font-family: "Raleway", sans-serif;
+  font-size: 11pt;
+}
+
+#card {
+  background: #fbfbfb;
+  border-radius: 8px;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+  height: 510px;
+  margin: 2.5rem auto 8.1rem auto;
+  width: 365px;
+}
+#card-content {
+  padding: 1px 44px;
+}
+#card-title {
+  font-family: "Raleway Thin", sans-serif;
+  letter-spacing: 4px;
+  padding-bottom: 23px;
+  padding-top: 13px;
+  text-align: center;
+}
+
+#submit-btn {
+  background: -webkit-linear-gradient(right, #a6f77b, #2dbd6e);
+  border: none;
+  border-radius: 21px;
+  box-shadow: 0px 1px 8px #24c64f;
+  cursor: pointer;
+  color: black;
+  font-family: "Raleway SemiBold", sans-serif;
+  height: 42.3px;
+  margin: 0 auto;
+  margin-top: 25px;
+  transition: 0.25s;
+  width: 153px;
+}
+#submit-btn:hover {
+  box-shadow: 0px 1px 18px #24c64f;
+}
+.form {
+align-items: left;
+display: flex;
+flex-direction: column;
+}
+.form-border {
+background: -webkit-linear-gradient(right, #a6f77b, #2ec06f);
+height: 1px;
+width: 100%;
+}
+.form-content {
+background: #fbfbfb;
+border: none;
+outline: none;
+padding-top: 14px;
+}
+.underline-title {
+background: -webkit-linear-gradient(right, #a6f77b, #2ec06f);
+height: 2px;
+margin: -1.1rem auto 0 auto;
+width: 89px;
+}
+
+.radiou {
+background: -webkit-linear-gradient(right, #a6f77b, #2ec06f);
+height: 1px;
+width: 30%;
+}
+
+.cheku {
+background: -webkit-linear-gradient(right, #a6f77b, #2ec06f);
+height: 1px;
+width: 20%;
+}
